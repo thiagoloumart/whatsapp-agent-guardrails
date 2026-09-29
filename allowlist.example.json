@@ -1,0 +1,20 @@
+{
+  "enforce": false,
+  "guard_port": 8088,
+  "upstream_host": "127.0.0.1",
+  "upstream_port": 8080,
+  "upstream_host_header": "evolution.example.com",
+  "owner_dm": "5511999999999",
+
+  "groups_by_robot": {
+    "sales-bot": { "instance": "main", "groups": ["120363000000000001"] },
+    "ops-alerts": { "groups": ["120363000000000002"] }
+  },
+  "groups_by_instance": {},
+
+  "direct_robots": [],
+  "router_robot": null,
+  "router_url": null,
+
+  "instance_alias": {}
+}

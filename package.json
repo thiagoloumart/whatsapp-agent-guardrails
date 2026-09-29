@@ -1,0 +1,7 @@
+{
+  "name": "whatsapp-agent-guardrails",
+  "version": "1.0.0",
+  "description": "Default-deny guardrail that decides which WhatsApp groups each AI agent or script may message.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test/run.js" }
+}
